@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculadora/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculadora/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 2 - que possui um metodo que dobra o número informado">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Musica/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Musica/Musica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Desafios.Musica.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.main.executor": "Run",
@@ -44,7 +45,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Desafios.Musica.Main">
+    <configuration name="Desafios.Musica.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Musica.Main" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Desafios.Musica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Calculadora.Main" />
       <module name="screenmatch" />
@@ -80,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.Musica.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Principal" />
@@ -111,12 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713565588706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Desafio 2 - que possui um metodo que dobra o número informado">
+      <option name="closed" value="true" />
+      <created>1713566426832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713566426832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Um modelo para representar filmes" />
     <MESSAGE value="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;" />
+    <MESSAGE value="Desafio 2 - que possui um metodo que dobra o número informado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2 - que possui um metodo que dobra o número informado" />
   </component>
 </project>
