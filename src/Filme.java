@@ -8,8 +8,8 @@ public class Filme {
     int anoDeLancamento;
     boolean incluidoNoPlano;
     double somaAvaliacoes;
-    double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
     void exibeFichaTecnica() {
