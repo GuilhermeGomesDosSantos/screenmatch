@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 3 - Informações de Musica">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Carro/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Carro/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 4 - Informações para Carro">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Aluno/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Aluno/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Desafios.Carro.Main">
+  <component name="RunManager" selected="Application.Desafios.Aluno.Main">
+    <configuration name="Desafios.Aluno.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Aluno.Main" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Desafios.Aluno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Desafios.Carro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Carro.Main" />
       <module name="screenmatch" />
@@ -86,13 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="screenmatch" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Pessoa.main" />
       <module name="screenmatch" />
@@ -108,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.Aluno.Main" />
         <item itemvalue="Application.Desafios.Carro.Main" />
         <item itemvalue="Application.Desafios.Musica.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713568815356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Desafio 4 - Informações para Carro">
+      <option name="closed" value="true" />
+      <created>1713575810808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713575810808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +179,7 @@
     <MESSAGE value="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;" />
     <MESSAGE value="Desafio 2 - que possui um metodo que dobra o número informado" />
     <MESSAGE value="Desafio 3 - Informações de Musica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 3 - Informações de Musica" />
+    <MESSAGE value="Desafio 4 - Informações para Carro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 4 - Informações para Carro" />
   </component>
 </project>
