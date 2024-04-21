@@ -37,4 +37,20 @@ public class Serie extends Titulo{
     public void setMinutosPorEpisodio(int minutosPorEpisodio) {
         this.minutosPorEpisodio = minutosPorEpisodio;
     }
+
+    // Sobrescrevendo um metodo
+/*
+    @Override// a anotação @Override possibilita a sobrescrita de um método
+    public int getDuracaoEmMinutos() {
+        return super.getDuracaoEmMinutos();
+    }*/
+
+    @Override
+    /* nesse caso o método getDuraçãoEmMinutos, está sendo herdado da classe mãe(Titulo)
+    e sobrescrevendo o metodo que foi herdado da classe mãe
+    reescrevemos a lógica de um método que foi herdado da classe mãe
+     */
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
+    }
 }
