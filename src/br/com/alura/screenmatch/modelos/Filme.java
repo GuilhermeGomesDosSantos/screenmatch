@@ -13,6 +13,23 @@ public class Filme {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    public void exibeFichaTecnica() {
+        System.out.println("Nome do filme: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+        System.out.println("Duração em minutos: " + duracaoEmMinutos);
+        System.out.println("Incluido no plano: " + incluidoNoPlano);
+    }
+
+    public void avalia(double nota) {
+        somaDasAvaliacoes += nota;
+        totalDeAvaliacoes++;
+    }
+
+    public double pegaMedia() {
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
+
     public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
@@ -47,19 +64,5 @@ public class Filme {
 
     public void setDuracaoEmMinutos(int duracaoEmMinutos) {
         this.duracaoEmMinutos = duracaoEmMinutos;
-    }
-
-    public void exibeFichaTecnica() {
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoDeLancamento);
-    }
-
-    public void avalia(double nota) {
-        somaDasAvaliacoes += nota;
-        totalDeAvaliacoes++;
-    }
-
-    public double pegaMedia() {
-        return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }

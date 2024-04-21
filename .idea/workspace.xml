@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Organizando o código">
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Criando métodos que modificam valores">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ContaBancaria/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ContaBancaria/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,7 @@
   "keyToString": {
     "Application.Desafios.Aluno.Main.executor": "Run",
     "Application.Desafios.Carro.Main.executor": "Run",
+    "Application.Desafios.ContaBancaria.Main.executor": "Run",
     "Application.Desafios.Musica.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
@@ -48,7 +50,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.Desafios.ContaBancaria.Main">
     <configuration name="Desafios.Aluno.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Aluno.Main" />
       <module name="screenmatch" />
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.Musica.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Musica.Main" />
+    <configuration name="Desafios.ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.ContaBancaria.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Musica.*" />
+          <option name="PATTERN" value="Desafios.ContaBancaria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Calculadora.Main" />
+    <configuration name="Desafios.Musica.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Musica.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Calculadora.*" />
+          <option name="PATTERN" value="Desafios.Musica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.ContaBancaria.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Aluno.Main" />
         <item itemvalue="Application.Desafios.Carro.Main" />
         <item itemvalue="Application.Desafios.Musica.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713617367674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Criando métodos que modificam valores">
+      <option name="closed" value="true" />
+      <created>1713618736417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713618736417</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +230,7 @@
     <MESSAGE value="Configurando o que pode ser visto e modificado" />
     <MESSAGE value="Visualizando características privadas" />
     <MESSAGE value="Organizando o código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organizando o código" />
+    <MESSAGE value="Criando métodos que modificam valores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando métodos que modificam valores" />
   </component>
 </project>
