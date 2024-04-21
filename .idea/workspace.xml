@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Animais">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Banco/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Banco/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conta Bancaria">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/GeradorPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/NumerosPrimos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/VerificadorPrimo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
     "Application.Desafios.ContaBancaria.Main.executor": "Run",
     "Application.Desafios.Livro.Main.executor": "Run",
     "Application.Desafios.Musica.Main.executor": "Run",
+    "Application.Desafios.NumerosPrimos.Main.executor": "Run",
     "Application.Desafios.Produto.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
@@ -54,7 +57,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Desafios.Banco.Main">
+  <component name="RunManager" selected="Application.Desafios.NumerosPrimos.Main">
     <configuration name="Desafios.Banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Banco.Main" />
       <module name="screenmatch" />
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.Livro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Livro.Main" />
+    <configuration name="Desafios.NumerosPrimos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.NumerosPrimos.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Livro.*" />
+          <option name="PATTERN" value="Desafios.NumerosPrimos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.NumerosPrimos.Main" />
         <item itemvalue="Application.Desafios.Banco.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.CarroModelo.Main" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Desafios.Livro.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713731604724</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Conta Bancaria">
+      <option name="closed" value="true" />
+      <created>1713732545087</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713732545087</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,6 +352,7 @@
     <MESSAGE value="Evitando código duplicado" />
     <MESSAGE value="Modelo Carro" />
     <MESSAGE value="Desafio - Animais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Animais" />
+    <MESSAGE value="Conta Bancaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conta Bancaria" />
   </component>
 </project>
