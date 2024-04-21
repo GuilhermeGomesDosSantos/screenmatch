@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Modelo Carro">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Animal/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Animal/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Animal/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Animais">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Banco/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Banco/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
   "keyToString": {
     "Application.Desafios.Aluno.Main.executor": "Run",
     "Application.Desafios.AlunoNew.Main.executor": "Run",
+    "Application.Desafios.Banco.Main.executor": "Run",
     "Application.Desafios.Carro.Main.executor": "Run",
     "Application.Desafios.CarroModelo.Main.executor": "Run",
     "Application.Desafios.ContaBancaria.Main.executor": "Run",
@@ -55,13 +54,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Desafios.AlunoNew.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.AlunoNew.Main" />
+  <component name="RunManager" selected="Application.Desafios.Banco.Main">
+    <configuration name="Desafios.Banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Banco.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.AlunoNew.*" />
+          <option name="PATTERN" value="Desafios.Banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.Banco.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.CarroModelo.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Livro.Main" />
-        <item itemvalue="Application.Desafios.AlunoNew.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713730851511</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Desafio - Animais">
+      <option name="closed" value="true" />
+      <created>1713731597287</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713731597287</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Desafio - Animais">
+      <option name="closed" value="true" />
+      <created>1713731604724</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713731604724</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,6 +340,7 @@
     <MESSAGE value="Mesmo nome, comportamentos diferentes" />
     <MESSAGE value="Evitando código duplicado" />
     <MESSAGE value="Modelo Carro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modelo Carro" />
+    <MESSAGE value="Desafio - Animais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Animais" />
   </component>
 </project>
