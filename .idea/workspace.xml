@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Criando métodos que modificam valores">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/ContaBancaria/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/ContaBancaria/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Conta bancaria">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/IdadePessoa/IdadePessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/IdadePessoa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Desafios.ContaBancaria.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Desafios.Aluno.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Aluno.Main" />
       <module name="screenmatch" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.Musica.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Musica.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.IdadePessoa.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Musica.*" />
+          <option name="PATTERN" value="Desafios.IdadePessoa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.ContaBancaria.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Aluno.Main" />
         <item itemvalue="Application.Desafios.Carro.Main" />
-        <item itemvalue="Application.Desafios.Musica.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713618736417</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Desafio - Conta bancaria">
+      <option name="closed" value="true" />
+      <created>1713659080226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713659080226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +238,7 @@
     <MESSAGE value="Visualizando características privadas" />
     <MESSAGE value="Organizando o código" />
     <MESSAGE value="Criando métodos que modificam valores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando métodos que modificam valores" />
+    <MESSAGE value="Desafio - Conta bancaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Conta bancaria" />
   </component>
 </project>
