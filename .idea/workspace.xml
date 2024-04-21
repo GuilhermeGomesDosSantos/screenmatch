@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Aluno">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Livro/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Livro/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Livro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafios/Livro/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafios/Livro/Livro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713666356391</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Desafio - Livro">
+      <option name="closed" value="true" />
+      <created>1713666828720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713666828720</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,6 +282,7 @@
     <MESSAGE value="Desafio - Idade Pessoa" />
     <MESSAGE value="Desafio - Produto" />
     <MESSAGE value="Desafio - Aluno" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Aluno" />
+    <MESSAGE value="Desafio - Livro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Livro" />
   </component>
 </project>
