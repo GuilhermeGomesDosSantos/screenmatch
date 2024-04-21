@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Conta bancaria">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/IdadePessoa/IdadePessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/IdadePessoa/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio - Idade Pessoa">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Produto/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Produto/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     "Application.Desafios.Carro.Main.executor": "Run",
     "Application.Desafios.ContaBancaria.Main.executor": "Run",
     "Application.Desafios.Musica.Main.executor": "Run",
+    "Application.Desafios.Produto.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.main.executor": "Run",
@@ -49,7 +50,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Desafios.Produto.Main">
     <configuration name="Desafios.Aluno.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Aluno.Main" />
       <module name="screenmatch" />
@@ -63,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.Carro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Carro.Main" />
+    <configuration name="Desafios.ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.ContaBancaria.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Carro.*" />
+          <option name="PATTERN" value="Desafios.ContaBancaria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.ContaBancaria.Main" />
+    <configuration name="Desafios.Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Produto.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.ContaBancaria.*" />
+          <option name="PATTERN" value="Desafios.Produto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.Produto.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.ContaBancaria.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Aluno.Main" />
-        <item itemvalue="Application.Desafios.Carro.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713659080226</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Desafio - Idade Pessoa">
+      <option name="closed" value="true" />
+      <created>1713660405927</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713660405927</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +248,7 @@
     <MESSAGE value="Organizando o código" />
     <MESSAGE value="Criando métodos que modificam valores" />
     <MESSAGE value="Desafio - Conta bancaria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Conta bancaria" />
+    <MESSAGE value="Desafio - Idade Pessoa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio - Idade Pessoa" />
   </component>
 </project>
