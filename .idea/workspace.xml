@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conta Bancaria">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/GeradorPrimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/NumerosPrimos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/NumerosPrimos/VerificadorPrimo.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Verificar se é número Primo">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculo/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713732545087</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Verificar se é número Primo">
+      <option name="closed" value="true" />
+      <created>1713738219275</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713738219275</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,6 +360,7 @@
     <MESSAGE value="Modelo Carro" />
     <MESSAGE value="Desafio - Animais" />
     <MESSAGE value="Conta Bancaria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conta Bancaria" />
+    <MESSAGE value="Verificar se é número Primo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verificar se é número Primo" />
   </component>
 </project>
