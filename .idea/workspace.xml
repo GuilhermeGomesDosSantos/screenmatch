@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="&#10;Incluindo comportamentos adicionais">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculo/FiltroRecomendacao.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Classificando episódios e filmes">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/ConversaoFinanceira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/ConversorMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,29 +35,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Desafios.Aluno.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.AlunoNew.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.Banco.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.Carro.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.CarroModelo.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.ContaBancaria.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.Livro.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.Musica.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.NumerosPrimos.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desafios.Produto.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Desafios.Aluno.Main.executor": "Run",
+    "Application.Desafios.AlunoNew.Main.executor": "Run",
+    "Application.Desafios.Banco.Main.executor": "Run",
+    "Application.Desafios.Carro.Main.executor": "Run",
+    "Application.Desafios.CarroModelo.Main.executor": "Run",
+    "Application.Desafios.ContaBancaria.Main.executor": "Run",
+    "Application.Desafios.ConversorMoeda.Main.executor": "Run",
+    "Application.Desafios.Livro.Main.executor": "Run",
+    "Application.Desafios.Musica.Main.executor": "Run",
+    "Application.Desafios.NumerosPrimos.Main.executor": "Run",
+    "Application.Desafios.Produto.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Principal">
+}]]></component>
+  <component name="RunManager" selected="Application.Desafios.ConversorMoeda.Main">
     <configuration name="Desafios.Banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Banco.Main" />
       <module name="screenmatch" />
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.CarroModelo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.CarroModelo.Main" />
+    <configuration name="Desafios.ConversorMoeda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.ConversorMoeda.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.CarroModelo.*" />
+          <option name="PATTERN" value="Desafios.ConversorMoeda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.ConversorMoeda.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.NumerosPrimos.Main" />
         <item itemvalue="Application.Desafios.Banco.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Desafios.CarroModelo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713745506749</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Classificando episódios e filmes">
+      <option name="closed" value="true" />
+      <created>1714097059898</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1714097059898</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -371,6 +380,7 @@
     <MESSAGE value="Conta Bancaria" />
     <MESSAGE value="Verificar se é número Primo" />
     <MESSAGE value="&#10;Incluindo comportamentos adicionais" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Incluindo comportamentos adicionais" />
+    <MESSAGE value="Classificando episódios e filmes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classificando episódios e filmes" />
   </component>
 </project>
