@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Calculadora Sala Retangular">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/TabuadaMultiplicacao.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Tabuada">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorTemperatura/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorTemperatura/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorTemperatura/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.Desafios.CarroModelo.Main.executor": "Run",
     "Application.Desafios.ContaBancaria.Main.executor": "Run",
     "Application.Desafios.ConversorMoeda.Main.executor": "Run",
+    "Application.Desafios.ConversorTemperatura.Main.executor": "Run",
     "Application.Desafios.Livro.Main.executor": "Run",
     "Application.Desafios.Musica.Main.executor": "Run",
     "Application.Desafios.NumerosPrimos.Main.executor": "Run",
@@ -59,7 +60,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Desafios.ConversorTemperatura.Main">
     <configuration name="Desafios.CalculadoraSalaRetangular.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.CalculadoraSalaRetangular.Main" />
       <module name="screenmatch" />
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.NumerosPrimos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.NumerosPrimos.Main" />
+    <configuration name="Desafios.ConversorTemperatura.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.ConversorTemperatura.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.NumerosPrimos.*" />
+          <option name="PATTERN" value="Desafios.ConversorTemperatura.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.ConversorTemperatura.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.CalculadoraSalaRetangular.Main" />
         <item itemvalue="Application.Desafios.ConversorMoeda.Main" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Desafios.NumerosPrimos.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -370,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1714170268122</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Tabuada">
+      <option name="closed" value="true" />
+      <created>1714170944571</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1714170944571</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;" />
     <MESSAGE value="Desafio 2 - que possui um metodo que dobra o número informado" />
     <MESSAGE value="Desafio 3 - Informações de Musica" />
     <MESSAGE value="Desafio 4 - Informações para Carro" />
@@ -399,6 +407,7 @@
     <MESSAGE value="Classificando episódios e filmes" />
     <MESSAGE value="Conversão de moedas" />
     <MESSAGE value="Calculadora Sala Retangular" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculadora Sala Retangular" />
+    <MESSAGE value="Tabuada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabuada" />
   </component>
 </project>
