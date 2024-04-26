@@ -25,6 +25,6 @@ o filme irá saber fazer tudo que titulo faz
 
     @Override
     public int getClassificacao() {
-        return 0;
+        return (int) pegaMedia() / 2;
     }
 }
