@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conversão de moedas">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/CalculadoraSalaRetangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/CalculoGeometrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/Main.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Calculadora Sala Retangular">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/TabuadaMultiplicacao/TabuadaMultiplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,20 +59,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Desafios.CalculadoraSalaRetangular.Main">
-    <configuration name="Desafios.Banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Banco.Main" />
-      <module name="screenmatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Desafios.Banco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Desafios.CalculadoraSalaRetangular.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.CalculadoraSalaRetangular.Main" />
       <module name="screenmatch" />
@@ -112,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.TabuadaMultiplicacao.Main" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Desafios.TabuadaMultiplicacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="screenmatch" />
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.CalculadoraSalaRetangular.Main" />
         <item itemvalue="Application.Desafios.ConversorMoeda.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.NumerosPrimos.Main" />
-        <item itemvalue="Application.Desafios.Banco.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -362,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1714166764218</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Calculadora Sala Retangular">
+      <option name="closed" value="true" />
+      <created>1714170268122</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1714170268122</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Um modelo para representar filmes" />
     <MESSAGE value="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;" />
     <MESSAGE value="Desafio 2 - que possui um metodo que dobra o número informado" />
     <MESSAGE value="Desafio 3 - Informações de Musica" />
@@ -391,6 +398,7 @@
     <MESSAGE value="&#10;Incluindo comportamentos adicionais" />
     <MESSAGE value="Classificando episódios e filmes" />
     <MESSAGE value="Conversão de moedas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conversão de moedas" />
+    <MESSAGE value="Calculadora Sala Retangular" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculadora Sala Retangular" />
   </component>
 </project>
