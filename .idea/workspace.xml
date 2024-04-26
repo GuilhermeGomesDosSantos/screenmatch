@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conversão de moedas" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conversão de moedas">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/CalculadoraSalaRetangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/CalculoGeometrico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/CalculadoraSalaRetangular/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +40,7 @@
     "Application.Desafios.Aluno.Main.executor": "Run",
     "Application.Desafios.AlunoNew.Main.executor": "Run",
     "Application.Desafios.Banco.Main.executor": "Run",
+    "Application.Desafios.CalculadoraSalaRetangular.Main.executor": "Run",
     "Application.Desafios.Carro.Main.executor": "Run",
     "Application.Desafios.CarroModelo.Main.executor": "Run",
     "Application.Desafios.ContaBancaria.Main.executor": "Run",
@@ -53,13 +59,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Desafios.ConversorMoeda.Main">
+  <component name="RunManager" selected="Application.Desafios.CalculadoraSalaRetangular.Main">
     <configuration name="Desafios.Banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Banco.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Desafios.Banco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Desafios.CalculadoraSalaRetangular.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.CalculadoraSalaRetangular.Main" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Desafios.CalculadoraSalaRetangular.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Animal.Main" />
-      <module name="screenmatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Desafios.Animal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="screenmatch" />
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.CalculadoraSalaRetangular.Main" />
         <item itemvalue="Application.Desafios.ConversorMoeda.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.NumerosPrimos.Main" />
         <item itemvalue="Application.Desafios.Banco.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
