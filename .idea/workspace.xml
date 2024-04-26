@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Classificando episódios e filmes">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/ConversaoFinanceira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/ConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/ConversorMoeda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conversão de moedas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714097059898</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Conversão de moedas">
+      <option name="closed" value="true" />
+      <created>1714166764218</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1714166764218</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -381,6 +384,7 @@
     <MESSAGE value="Verificar se é número Primo" />
     <MESSAGE value="&#10;Incluindo comportamentos adicionais" />
     <MESSAGE value="Classificando episódios e filmes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classificando episódios e filmes" />
+    <MESSAGE value="Conversão de moedas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conversão de moedas" />
   </component>
 </project>
