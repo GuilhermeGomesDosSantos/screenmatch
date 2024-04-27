@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Conversor de Temperatura Padrão">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculavel/Calculavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculavel/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculavel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculavel/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Calculavel/ProdutoFisico.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Calculavel">
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Vendavel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
     "Application.Desafios.Musica.Main.executor": "Run",
     "Application.Desafios.NumerosPrimos.Main.executor": "Run",
     "Application.Desafios.Produto.Main.executor": "Run",
+    "Application.Desafios.Vendavel.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.main.executor": "Run",
@@ -65,10 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Desafios.Vendavel" />
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios.Calculavel.Main">
+  <component name="RunManager" selected="Application.Desafios.Vendavel.Main">
     <configuration name="Desafios.CalculadoraSalaRetangular.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.CalculadoraSalaRetangular.Main" />
       <module name="screenmatch" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.ConversorMoeda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.ConversorMoeda.Main" />
+    <configuration name="Desafios.ConversorTemperatura.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.ConversorTemperatura.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.ConversorMoeda.*" />
+          <option name="PATTERN" value="Desafios.ConversorTemperatura.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.ConversorTemperatura.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.ConversorTemperatura.Main" />
+    <configuration name="Desafios.Vendavel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios.Vendavel.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.ConversorTemperatura.*" />
+          <option name="PATTERN" value="Desafios.Vendavel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios.Vendavel.Main" />
         <item itemvalue="Application.Desafios.Calculavel.Main" />
         <item itemvalue="Application.Desafios.ConversorTemperatura.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Desafios.CalculadoraSalaRetangular.Main" />
-        <item itemvalue="Application.Desafios.ConversorMoeda.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -401,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1714173116357</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Calculavel">
+      <option name="closed" value="true" />
+      <created>1714182112106</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714182112106</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio 3 - Informações de Musica" />
     <MESSAGE value="Desafio 4 - Informações para Carro" />
     <MESSAGE value="Desafio 5 - Informações do Aluno" />
     <MESSAGE value="Configurando o que pode ser visto e modificado" />
@@ -430,6 +438,7 @@
     <MESSAGE value="Calculadora Sala Retangular" />
     <MESSAGE value="Tabuada" />
     <MESSAGE value="Conversor de Temperatura Padrão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conversor de Temperatura Padrão" />
+    <MESSAGE value="Calculavel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculavel" />
   </component>
 </project>
