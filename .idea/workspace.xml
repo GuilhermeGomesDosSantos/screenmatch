@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Calculavel">
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Servico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios/Vendavel/Vendavel.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Vendaval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,33 +32,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Desafios.Aluno.Main.executor": "Run",
-    "Application.Desafios.AlunoNew.Main.executor": "Run",
-    "Application.Desafios.Banco.Main.executor": "Run",
-    "Application.Desafios.CalculadoraSalaRetangular.Main.executor": "Run",
-    "Application.Desafios.Calculavel.Main.executor": "Run",
-    "Application.Desafios.Carro.Main.executor": "Run",
-    "Application.Desafios.CarroModelo.Main.executor": "Run",
-    "Application.Desafios.ContaBancaria.Main.executor": "Run",
-    "Application.Desafios.ConversorMoeda.Main.executor": "Run",
-    "Application.Desafios.ConversorTemperatura.Main.executor": "Run",
-    "Application.Desafios.Livro.Main.executor": "Run",
-    "Application.Desafios.Musica.Main.executor": "Run",
-    "Application.Desafios.NumerosPrimos.Main.executor": "Run",
-    "Application.Desafios.Produto.Main.executor": "Run",
-    "Application.Desafios.Vendavel.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "Application.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Desafios.Aluno.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.AlunoNew.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Banco.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.CalculadoraSalaRetangular.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Calculavel.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Carro.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.CarroModelo.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.ContaBancaria.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.ConversorMoeda.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.ConversorTemperatura.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Livro.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Musica.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.NumerosPrimos.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Produto.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desafios.Vendavel.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Desafios.Vendavel" />
@@ -410,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1714182112106</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Vendaval">
+      <option name="closed" value="true" />
+      <created>1714183896217</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1714183896217</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio 4 - Informações para Carro" />
     <MESSAGE value="Desafio 5 - Informações do Aluno" />
     <MESSAGE value="Configurando o que pode ser visto e modificado" />
     <MESSAGE value="Visualizando características privadas" />
@@ -439,6 +442,7 @@
     <MESSAGE value="Tabuada" />
     <MESSAGE value="Conversor de Temperatura Padrão" />
     <MESSAGE value="Calculavel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculavel" />
+    <MESSAGE value="Vendaval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vendaval" />
   </component>
 </project>
