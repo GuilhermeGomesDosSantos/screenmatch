@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import br.com.alura.screenmatch.calculo.CalculadorDeTempo;
 import br.com.alura.screenmatch.calculo.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -10,15 +12,15 @@ public class Principal {
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
-        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
+        // System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
 
-        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
-        System.out.println(meuFilme.pegaMedia());
+        // System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        // System.out.println(meuFilme.pegaMedia());
 
         Serie lost = new Serie();
         lost.setNome("Lost");
@@ -27,7 +29,7 @@ public class Principal {
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorEpisodio(50);
-        System.out.println("Duração para Maratonar "+ lost.getNome() + ": " + lost.getDuracaoEmMinutos() + " minutos");
+        // System.out.println("Duração para Maratonar "+ lost.getNome() + ": " + lost.getDuracaoEmMinutos() + " minutos");
 
         Filme outroFilme = new Filme();
         outroFilme.setNome("Avatar");
@@ -38,7 +40,7 @@ public class Principal {
         calculadora.inclui(meuFilme);
         calculadora.inclui(outroFilme);
         calculadora.inclui(lost);
-        System.out.println(calculadora.getTempoTotal());
+        // System.out.println(calculadora.getTempoTotal());
 
         FiltroRecomendacao filtro = new FiltroRecomendacao();
         filtro.filtra(meuFilme);
@@ -48,5 +50,20 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        Filme filmeDoGuilherme = new Filme();
+        filmeDoGuilherme.setDuracaoEmMinutos(200);
+        filmeDoGuilherme.setNome("Dogville");
+        filmeDoGuilherme.setAnoDeLancamento(2003);
+        filmeDoGuilherme.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filmeDoGuilherme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista " + listaDeFilmes.size());
+        System.out.println("Primeiro filme da lista " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+
     }
 }
+ 
