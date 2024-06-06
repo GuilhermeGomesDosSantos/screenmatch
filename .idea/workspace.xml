@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Vendaval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +67,7 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios.Vendavel.Main">
-    <configuration name="Desafios.CalculadoraSalaRetangular.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.CalculadoraSalaRetangular.Main" />
-      <module name="screenmatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Desafios.CalculadoraSalaRetangular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Desafios.Calculavel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Calculavel.Main" />
       <module name="screenmatch" />
@@ -131,13 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Vendavel.Main" />
         <item itemvalue="Application.Desafios.Calculavel.Main" />
         <item itemvalue="Application.Desafios.ConversorTemperatura.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Desafios.CalculadoraSalaRetangular.Main" />
       </list>
     </recent_temporary>
   </component>
