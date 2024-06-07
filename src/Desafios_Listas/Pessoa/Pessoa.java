@@ -13,7 +13,7 @@ Está preparado para aplicar essas ideias?
 6 - Imprima a lista completa
  */
 
-package Desafios_Listas;
+package Desafios_Listas.Pessoa;
 
 public class Pessoa {
     private String nome;
