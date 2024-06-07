@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio Lista de Produtos">
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Produto/ProdutcPerecivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafios_Listas/Produto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafios_Listas/Produto/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafios_Listas/Produto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafios_Listas/Produto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     "Application.Desafios_Listas.Produto.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
+    "Application.PrincipalComListas.executor": "Run",
     "Application.ProdutcPerecivel.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -71,7 +72,7 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios_Listas.Produto.Main">
+  <component name="RunManager" selected="Application.PrincipalComListas">
     <configuration name="Desafios_Listas.Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Produto.Main" />
       <module name="screenmatch" />
@@ -98,22 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Pessoa.Main" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="screenmatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Desafios_Listas.Pessoa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+    <configuration name="PrincipalComListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.principal.PrincipalComListas" />
       <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Desafios_Listas.Produto.Main" />
         <item itemvalue="Application.ProdutcPerecivel" />
-        <item itemvalue="Application.Desafios_Listas.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Desafios.Vendavel.Main" />
       </list>
@@ -454,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717762903826</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Desafio Lista de Produtos">
+      <option name="closed" value="true" />
+      <created>1717766368912</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1717766368912</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

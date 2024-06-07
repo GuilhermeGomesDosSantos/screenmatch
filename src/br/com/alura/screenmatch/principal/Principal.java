@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.principal;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -62,4 +64,3 @@ public class Principal {
         Object obj = filmeDoGuilherme;
     }
 }
- 
