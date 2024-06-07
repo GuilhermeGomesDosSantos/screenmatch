@@ -8,6 +8,9 @@ public class Main {
 
         ArrayList<Product> listProducts = new ArrayList<>();
 
+        ProdutcPerecivel produtcPerecivel = new ProdutcPerecivel("Salgadinho", 12.5, 2, "18/12/2024");
+        listProducts.add(produtcPerecivel);
+
         Product product_1 = new Product("Uva", 15.0, 5);
         listProducts.add(product_1);
 
@@ -19,6 +22,8 @@ public class Main {
 
         System.out.println("O tamanho da lista de Produtos é: " + listProducts.size());
 
-        System.out.println("No indice 2 temos o Produto: " + listProducts.get(2).getNome());
+        for (Product product : listProducts) {
+            System.out.println(product);
+        }
     }
 }
