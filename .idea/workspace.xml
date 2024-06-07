@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Tipos diferentes de objetos na lista">
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Identificando o objeto">
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/ArrayList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrincipalComListas">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Desafios_Listas.Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Produto.Main" />
       <module name="screenmatch" />
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios.Vendavel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios.Vendavel.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.ArrayList.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios.Vendavel.*" />
+          <option name="PATTERN" value="Desafios_Listas.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Desafios_Listas.Produto.Main" />
         <item itemvalue="Application.ProdutcPerecivel" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Desafios.Vendavel.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -469,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717768756139</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Identificando o objeto">
+      <option name="closed" value="true" />
+      <created>1717774575618</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1717774575618</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio - Idade Pessoa" />
     <MESSAGE value="Desafio - Produto" />
     <MESSAGE value="Desafio - Aluno" />
     <MESSAGE value="Desafio - Livro" />
@@ -498,6 +505,7 @@
     <MESSAGE value="Definindo outras formas de construir filmes e séries" />
     <MESSAGE value="Desafio Lista de Produtos" />
     <MESSAGE value="Tipos diferentes de objetos na lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tipos diferentes de objetos na lista" />
+    <MESSAGE value="Identificando o objeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Identificando o objeto" />
   </component>
 </project>
