@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio Lista de Produtos">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Tipos diferentes de objetos na lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717766368912</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Tipos diferentes de objetos na lista">
+      <option name="closed" value="true" />
+      <created>1717768756138</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717768756139</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio - Conta bancaria" />
     <MESSAGE value="Desafio - Idade Pessoa" />
     <MESSAGE value="Desafio - Produto" />
     <MESSAGE value="Desafio - Aluno" />
@@ -492,6 +497,7 @@
     <MESSAGE value="Construindo objetos com valores" />
     <MESSAGE value="Definindo outras formas de construir filmes e séries" />
     <MESSAGE value="Desafio Lista de Produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio Lista de Produtos" />
+    <MESSAGE value="Tipos diferentes de objetos na lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tipos diferentes de objetos na lista" />
   </component>
 </project>
