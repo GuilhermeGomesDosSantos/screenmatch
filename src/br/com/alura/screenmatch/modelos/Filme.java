@@ -15,8 +15,8 @@ o filme irá saber fazer tudo que titulo faz
      */
     private String diretor;
 
-    public Filme(String nome) {
-        this.setNome(nome);
+    public Filme(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
     }
 
     public String getDiretor() {
