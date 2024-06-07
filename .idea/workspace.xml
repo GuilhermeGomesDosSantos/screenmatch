@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 03 - Modifique o Exercício 2 para incluir uma verificação usando instanceof">
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/ProdutoLista/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/ProdutoLista/ProdutoLista.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Crie uma classe Produto com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos.">
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Area/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Area/Forma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Area/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Area/Quadrado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
     "Application.Desafios.Produto.Main.executor": "Run",
     "Application.Desafios.Vendavel.Main.executor": "Run",
     "Application.Desafios_Listas.Animal.Main.executor": "Run",
+    "Application.Desafios_Listas.Area.Main.executor": "Run",
     "Application.Desafios_Listas.Main.executor": "Run",
     "Application.Desafios_Listas.Produto.Main.executor": "Run",
     "Application.Desafios_Listas.ProdutoLista.Main.executor": "Run",
@@ -73,7 +76,7 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios_Listas.ProdutoLista.Main">
+  <component name="RunManager" selected="Application.Desafios_Listas.Area.Main">
     <configuration name="Desafios_Listas.Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Animal.Main" />
       <module name="screenmatch" />
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios_Listas.ProdutoLista.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.ProdutoLista.Main" />
+    <configuration name="Desafios_Listas.Area.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Area.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios_Listas.ProdutoLista.*" />
+          <option name="PATTERN" value="Desafios_Listas.Area.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios_Listas.Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Produto.Main" />
+    <configuration name="Desafios_Listas.ProdutoLista.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.ProdutoLista.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios_Listas.Produto.*" />
+          <option name="PATTERN" value="Desafios_Listas.ProdutoLista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios_Listas.Area.Main" />
         <item itemvalue="Application.Desafios_Listas.ProdutoLista.Main" />
         <item itemvalue="Application.Desafios_Listas.Animal.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrincipalComListas" />
-        <item itemvalue="Application.Desafios_Listas.Produto.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -518,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717791387032</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Crie uma classe Produto com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos.">
+      <option name="closed" value="true" />
+      <created>1717794688611</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1717794688611</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aproveitando o modelo para séries" />
     <MESSAGE value="Mesmo nome, comportamentos diferentes" />
     <MESSAGE value="Evitando código duplicado" />
     <MESSAGE value="Modelo Carro" />
@@ -547,6 +557,7 @@
     <MESSAGE value="Desafio 01 - ArrayList de strings" />
     <MESSAGE value="Desafio 02 - classe Animal e uma classe Cachorro que herda de Animal" />
     <MESSAGE value="Desafio 03 - Modifique o Exercício 2 para incluir uma verificação usando instanceof" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 03 - Modifique o Exercício 2 para incluir uma verificação usando instanceof" />
+    <MESSAGE value="Crie uma classe Produto com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Crie uma classe Produto com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos." />
   </component>
 </project>
