@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Entendendo a hierarquia de classes e métodos">
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Pessoa.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio: hora da prática, Pessoa Lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios_Listas.Main">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Desafios.Calculavel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Desafios.Calculavel.Main" />
       <module name="screenmatch" />
@@ -130,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Desafios_Listas.Main" />
         <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Desafios_Listas.Main" />
         <item itemvalue="Application.Desafios.Vendavel.Main" />
         <item itemvalue="Application.Desafios.Calculavel.Main" />
         <item itemvalue="Application.Desafios.ConversorTemperatura.Main" />
@@ -419,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717676387782</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Desafio: hora da prática, Pessoa Lista">
+      <option name="closed" value="true" />
+      <created>1717679565948</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717679565948</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configurando o que pode ser visto e modificado" />
     <MESSAGE value="Visualizando características privadas" />
     <MESSAGE value="Organizando o código" />
     <MESSAGE value="Criando métodos que modificam valores" />
@@ -448,6 +455,7 @@
     <MESSAGE value="Calculavel" />
     <MESSAGE value="Vendaval" />
     <MESSAGE value="Entendendo a hierarquia de classes e métodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entendendo a hierarquia de classes e métodos" />
+    <MESSAGE value="Desafio: hora da prática, Pessoa Lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio: hora da prática, Pessoa Lista" />
   </component>
 </project>

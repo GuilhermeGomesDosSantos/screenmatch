@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 import br.com.alura.screenmatch.calculo.CalculadorDeTempo;
 import br.com.alura.screenmatch.calculo.FiltroRecomendacao;
@@ -8,8 +9,7 @@ import br.com.alura.screenmatch.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("O poderoso chefão");
+        Filme meuFilme = new Filme("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
         // System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
@@ -31,8 +31,7 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         // System.out.println("Duração para Maratonar "+ lost.getNome() + ": " + lost.getDuracaoEmMinutos() + " minutos");
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
+        Filme outroFilme = new Filme("Avatar");
         outroFilme.setAnoDeLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
 
@@ -51,19 +50,22 @@ public class Principal {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        Filme filmeDoGuilherme = new Filme();
+        var filmeDoGuilherme = new Filme("Dogville");
         filmeDoGuilherme.setDuracaoEmMinutos(200);
-        filmeDoGuilherme.setNome("Dogville");
+//        filmeDoGuilherme.setNome("Dogville");
         filmeDoGuilherme.setAnoDeLancamento(2003);
         filmeDoGuilherme.avalia(10);
 
         ArrayList<Filme> listaDeFilmes = new ArrayList<>();
         listaDeFilmes.add(filmeDoGuilherme);
         listaDeFilmes.add(outroFilme);
+        listaDeFilmes.add((meuFilme));
         System.out.println("Tamanho da lista " + listaDeFilmes.size());
         System.out.println("Primeiro filme da lista " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
         System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
+
+        Object obj = filmeDoGuilherme;
     }
 }
  
