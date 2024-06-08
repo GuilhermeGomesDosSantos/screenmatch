@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 01 - Lista crescente (ordenada) de números inteiros">
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Titulo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/Titulo/Titulo.java" afterDir="false" />
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Desafio 02 e 03 - Lista de Titulos">
+      <change afterPath="$PROJECT_DIR$/src/Desafios_Listas/List/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +75,13 @@
       <recent name="Desafios.Calculavel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafios_Listas.Titulo.Main">
-    <configuration name="Desafios_Listas.Area.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.Area.Main" />
+  <component name="RunManager" selected="Application.Desafios_Listas.List.Main">
+    <configuration name="Desafios_Listas.ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.ContaBancaria.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios_Listas.Area.*" />
+          <option name="PATTERN" value="Desafios_Listas.ContaBancaria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Desafios_Listas.ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.ContaBancaria.Main" />
+    <configuration name="Desafios_Listas.List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Desafios_Listas.List.Main" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafios_Listas.ContaBancaria.*" />
+          <option name="PATTERN" value="Desafios_Listas.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Desafios_Listas.List.Main" />
         <item itemvalue="Application.Desafios_Listas.Titulo.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Desafios_Listas.ContaBancaria.Main" />
-        <item itemvalue="Application.Desafios_Listas.Area.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,14 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713472945193</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Desafio 3 - Informações de Musica">
-      <option name="closed" value="true" />
-      <created>1713568815356</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1713568815356</updated>
     </task>
     <task id="LOCAL-00005" summary="Desafio 4 - Informações para Carro">
       <option name="closed" value="true" />
@@ -553,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717861886173</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Desafio 02 e 03 - Lista de Titulos">
+      <option name="closed" value="true" />
+      <created>1717863374383</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1717863374383</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Incluindo comportamentos adicionais" />
     <MESSAGE value="Classificando episódios e filmes" />
     <MESSAGE value="Conversão de moedas" />
     <MESSAGE value="Calculadora Sala Retangular" />
@@ -582,6 +580,7 @@
     <MESSAGE value="Definindo outros critérios de ordenação" />
     <MESSAGE value="Utilizando a interface List" />
     <MESSAGE value="Desafio 01 - Lista crescente (ordenada) de números inteiros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 01 - Lista crescente (ordenada) de números inteiros" />
+    <MESSAGE value="Desafio 02 e 03 - Lista de Titulos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 02 e 03 - Lista de Titulos" />
   </component>
 </project>
