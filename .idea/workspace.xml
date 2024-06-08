@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Ordenando a lista">
+    <list default="true" id="889b9754-6bf2-41f6-a0e6-f5915b0aa524" name="Changes" comment="Definindo outros critérios de ordenação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,14 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713472945193</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Um modelo para representar filmes">
-      <option name="closed" value="true" />
-      <created>1713473942214</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1713473942214</updated>
     </task>
     <task id="LOCAL-00002" summary="Desafio 1 - classe Pessoa com um método que exibe &quot;Olá, mundo!&quot;">
       <option name="closed" value="true" />
@@ -552,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717856984209</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Definindo outros critérios de ordenação">
+      <option name="closed" value="true" />
+      <created>1717857981820</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1717857981820</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio - Animais" />
     <MESSAGE value="Conta Bancaria" />
     <MESSAGE value="Verificar se é número Primo" />
     <MESSAGE value="&#10;Incluindo comportamentos adicionais" />
@@ -581,6 +579,7 @@
     <MESSAGE value="Desafio 05 - Crie uma interface Forma com um método calcularArea(). Implemente a interface em duas classes, por exemplo, Circulo e Quadrado. Em seguida, crie uma lista de formas (objetos da interface Forma) e utilize um loop para calcular e imprimir a área de cada forma." />
     <MESSAGE value="Desafio 06 - Crie uma classe ContaBancaria" />
     <MESSAGE value="Ordenando a lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ordenando a lista" />
+    <MESSAGE value="Definindo outros critérios de ordenação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Definindo outros critérios de ordenação" />
   </component>
 </project>
